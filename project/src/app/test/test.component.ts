@@ -7,23 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  name= "saran" ;
-  myId='testId';
-  isDisabled=true;
-  greeting="";
-
+  name="";
+ 
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  greetUser(){
-    return this.name;
-  }
   
-  onClick(){
-    console.log('hey');
-    this.greeting="welcome"
-  }
 }
